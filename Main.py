@@ -30,3 +30,8 @@ if nombre in name2:
     print('Presente')
 else:
     print('no presente')
+
+i = name.index('Panula, Mr. Ernesti Arvid')
+name[i] = 'Tanula, Mr. Ernesto Arvad'
+print(name[i])
+print(name)
