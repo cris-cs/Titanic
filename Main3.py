@@ -16,9 +16,9 @@ def analyseTitanic(totalPassagers, sexePassager):
     return taux
 
 
-#print(analyseTitanic(nbPassagers))
-#tauxSurvie = analyseTitanic(nbPassagers) / nbPassagers * 100
-#print(f'{tauxSurvie:.1f}%')
+# print(analyseTitanic(nbPassagers))
+# tauxSurvie = analyseTitanic(nbPassagers) / nbPassagers * 100
+# print(f'{tauxSurvie:.1f}%')
 
 print(analyseTitanic(nbPassagers, 'male'))
 print(analyseTitanic(nbPassagers, 'female'))
